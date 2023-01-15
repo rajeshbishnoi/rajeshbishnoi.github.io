@@ -4,12 +4,27 @@ header {
     z-index: 1;
   }
   
-  .navbar {
+  nav {
+    background-color: #f8f9fa;
+  }
+  
+  .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 0.5rem 1rem;
   }
   
-  .navbar-brand {
+  .nav-brand {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+  
+  .nav-menu {
+    display: flex;
+  }
+  
+  .nav-menu a {
+    margin-left: 1rem;
   }
   
