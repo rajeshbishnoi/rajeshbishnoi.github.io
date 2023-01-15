@@ -1,0 +1,14 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .navbar {
+    padding: 0.5rem 1rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
